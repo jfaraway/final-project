@@ -1,0 +1,223 @@
+/* 
+Color scheme (Darkest to lightest)
+
+
+
+#455588 
+
+
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    width: 100%;
+    background-color: #0C142B; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    /* background-color: #000138; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+li {
+    float: left;
+}
+
+li img {
+    height: 45%; 
+    width: 45%;
+    padding: 0px;
+}    
+
+li a {
+    display: block;
+    color: #adbceb;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9EC0E1;
+}
+
+a:active {
+    background-color: #6073b1;
+}
+
+li a:hover {
+    background-color: #455588;
+    color: white;
+}
+
+header {
+    height: 13px;
+ 
+    background-image: linear-gradient(#4e5ea5, #0C142B);
+
+}
+
+.about {
+
+    /* background-color: white; */
+    width: 50%;
+    padding-left: 20px;
+    margin: 10px 30% 10px 30%;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    width: 600px;
+    background-color: #7790DD;
+    text-align: center;
+
+}
+
+.map {
+    background-color: #455588;
+    width: 60%;
+}
+
+
+h2 {
+     margin-left: 20px;
+     margin-top: 30px;
+     margin-bottom: 1em;
+     background:transparent;
+     color: #0C142B;
+}
+
+h3 {
+    color: #0C142B;
+}
+
+p {
+    color: #0C142B;
+}
+
+#submit {
+    color: #0C142B
+}
+
+section,
+article {
+    height: 250px;
+    width: 45%;
+    /* clear: left; */
+    float: left;
+    padding: 5px;
+    margin: 15px 5px 50px 125px;
+    font-size: 22px;
+    /* text-shadow: rgb(23, 72, 163) 1px 1px; */
+    border: 3px solid rgb(64, 118, 218); 
+    color: white;
+    
+}
+
+
+aside {
+    float: right;
+    margin: 15px 175px 0px 0px;
+    height: 600px;
+    width: 31%;
+    /* text-shadow: rgb(23, 72, 163) 1px 1px; */
+    border: 3px solid rgb(64, 118, 218); 
+    text-align: center;
+    
+} 
+ 
+footer {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    background-image: linear-gradient(#0C142B, #4e5ea5);
+    color: white;
+    height: 40px;      
+    width: 100%;    
+    text-align: center;
+    clear: both; */
+    background-color: transparent;
+    display: block;
+    position: absolute  */
+    
+}
+ 
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+    margin-top: 1em;
+    margin-left, margin-right: 10px;
+    color: #455588;
+}
+
+.hero-image {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+      
+   /* Set a specific height */
+   height: 50%;
+ 
+   /* Position and center the image to scale nicely on all screens */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.hero-text {
+  /* Place text in the middle of the image */
+  text-align: right;
+  position: absolute;
+  width: 550px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: transparent;
+  float: right;
+  padding-left: 600px;       
+}
+
+.font-size:40px {
+        background-color: transparent;
+    
+
+    color: white;
+}
+ 
+button {  
+    color: #0C142B; 
+    padding: 2px 6px 2px 6px;
+    margin: 10px;
+} 
+   
+form {
+    background-color: transparent;
+    
+}
+
+content {
+    color: white
+}

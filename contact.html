@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us!</title>
+  <link rel="stylesheet" href="styles/styles.css">
+    <style>
+
+      input[type=text], select, textarea {
+        width: 96%;
+        padding: 12px 50px 10px 20px;
+        border: 3px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-left: 20px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type=submit] {
+        background-color: #ffffff;
+        color: rgb(82, 80, 184);
+        padding: 15px 15px 15px 15px;
+        margin: 2em;
+        border: 3px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #ADBCEB;
+        color: white;
+      }
+
+      .container {
+        border: 0px;
+        border-radius: 5px;
+        background-color: #7790DD;
+        padding: 20px;
+        margin: 50px 20% 10px 20%;
+        width: 900px;
+
+        
+
+      }
+
+      ::placeholder {
+          color: white;
+          opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: white;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+        color: white;
+        }
+    </style>
+ </head>
+
+<body>
+  <header> </header>
+  <nav>
+            
+    <ul>
+        <li><a href="https://warp.global/"><img src="img/minilight---long.png"></a></li>
+        <li><a href="https://warp.global/"target="_blank">Home</a></li>
+        <li><a href="https://warp.global/about"target="_blank">About</a></li>
+        <li><a class="active" href="https://warp.global/contact-us"target="_blank">Contact</a></li>
+    </ul>
+</nav>
+
+
+
+<div class="container">
+ 
+  <h2><br>Contact Us!</h2>
+  
+
+  <form action="/action_page.php">
+    <label for="fname"><br>&nbsp;&nbsp;First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="&nbsp;&nbsp;Your name..">
+
+    <label for="lname">&nbsp;&nbsp;Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="&nbsp;&nbsp;Your last name..">
+
+    <label for="service">&nbsp;&nbsp;Service</label>
+    <select id="service" name="service">
+      <option value="Free 45-Minute Consultation">Free 45-Minute Consultation</option>
+      <option value="1-Month Social Media Managment">1-Month Social Media Managment</option>
+      <option value="1-Month Social Media Content Production">1-Month Social Media Content Production</option>
+      <option value="1-Month Full Social Media Services">1-Month Full Social Media Services</option>
+      <option value="3-Months Social Media Managment">3-Months Social Media Managment</option>
+      <option value="3-Months Social Media Content Production">3-Months Social Media Content Production</option>
+      <option value="3-Months Full Social Media Services">3-Months Full Social Media Services</option>
+    </select>
+        
+       &nbsp;&nbsp;
+    <label for="email">&nbsp;&nbsp;Email</label>
+    <input type="text" id="email" name="email" placeholder="&nbsp;&nbsp;Your email.."> 
+       
+  	<br><br><label for="subject">&nbsp;&nbsp;Subject</label>
+    <textarea id="subject" name="subject" placeholder="&nbsp;&nbsp;Tell us more about how we can help you.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+<footer>
+  <p>WARP.Global&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2021&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;This is all the business info smashed into the bottom of the screen. Reach us directly. 
+
+  <a href="contact@warp.global">contact@warp.global</a></p>
+</footer>
+        
+
+</body>
+</html>
